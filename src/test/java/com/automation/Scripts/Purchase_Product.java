@@ -15,8 +15,10 @@ import com.relevantcodes.extentreports.LogStatus;
 
 public class Purchase_Product extends BaseTest {
 	
-	@Test
+	@Test(priority = 0)
 	public void Opencart_PurchaseProduct() throws FrameWorkExceptions, IOException {
+		
+		//System.out.println(Thread.currentThread().getId());
 		
 		getExtenttest().log(LogStatus.PASS, "Browser Opened Successfully");
 		getDriver().get(POJO_Utility.GetConf().GetPropertyValue("OpenCart_URL"));
@@ -32,6 +34,15 @@ public class Purchase_Product extends BaseTest {
 		ProductPage.CheckDefaultQuantity();
 		ProductPage.EnterQuantity("3");
 		
+	}
+	
+	@Test(priority = 1)
+	public void ParllelTest() {
+		
+		//System.out.println(Thread.currentThread().getId());
+		getDriver().get("https://www.rameshsoft.com");
+		
+
 	}
 
 }

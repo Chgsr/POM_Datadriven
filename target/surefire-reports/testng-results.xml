@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="14149" started-at="2021-05-19T15:24:38Z" finished-at="2021-05-19T15:24:52Z">
+  <suite name="ParallelTestSuite" duration-ms="23916" started-at="2021-06-02T17:05:58Z" finished-at="2021-06-02T17:06:22Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="14149" started-at="2021-05-19T15:24:38Z" finished-at="2021-05-19T15:24:52Z">
+    <test name="Test" duration-ms="23916" started-at="2021-06-02T17:05:58Z" finished-at="2021-06-02T17:06:22Z">
       <class name="com.automation.Scripts.Purchase_Product">
-        <test-method status="PASS" signature="OpenBrowser(java.lang.String)[pri:0, instance:com.automation.Scripts.Purchase_Product@5906ebcb]" name="OpenBrowser" is-config="true" duration-ms="2711" started-at="2021-05-19T20:54:35Z" finished-at="2021-05-19T20:54:38Z">
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String)[pri:0, instance:com.automation.Scripts.Purchase_Product@3d299e3]" name="OpenBrowser" is-config="true" duration-ms="2676" started-at="2021-06-02T22:35:55Z" finished-at="2021-06-02T22:35:58Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.automation.Scripts.Purchase_Product@5906ebcb]" name="BeforeTest" is-config="true" duration-ms="196" started-at="2021-05-19T20:54:38Z" finished-at="2021-05-19T20:54:38Z">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.automation.Scripts.Purchase_Product@3d299e3]" name="BeforeTest" is-config="true" duration-ms="226" started-at="2021-06-02T22:35:58Z" finished-at="2021-06-02T22:35:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method status="PASS" signature="Beforemethod(java.lang.reflect.Method)[pri:0, instance:com.automation.Scripts.Purchase_Product@5906ebcb]" name="Beforemethod" is-config="true" duration-ms="9" started-at="2021-05-19T20:54:38Z" finished-at="2021-05-19T20:54:38Z">
+        <test-method status="PASS" signature="Beforemethod(java.lang.reflect.Method)[pri:0, instance:com.automation.Scripts.Purchase_Product@3d299e3]" name="Beforemethod" is-config="true" duration-ms="15" started-at="2021-06-02T22:35:58Z" finished-at="2021-06-02T22:35:58Z">
           <params>
             <param index="0">
               <value>
@@ -33,30 +33,56 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Beforemethod -->
-        <test-method status="PASS" signature="Opencart_PurchaseProduct()[pri:0, instance:com.automation.Scripts.Purchase_Product@5906ebcb]" name="Opencart_PurchaseProduct" duration-ms="12858" started-at="2021-05-19T20:54:38Z" finished-at="2021-05-19T20:54:51Z">
+        <test-method status="PASS" signature="Opencart_PurchaseProduct()[pri:0, instance:com.automation.Scripts.Purchase_Product@3d299e3]" name="Opencart_PurchaseProduct" duration-ms="16435" started-at="2021-06-02T22:35:58Z" finished-at="2021-06-02T22:36:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Opencart_PurchaseProduct -->
-        <test-method status="PASS" signature="Aftermethod(org.testng.ITestResult)[pri:0, instance:com.automation.Scripts.Purchase_Product@5906ebcb]" name="Aftermethod" is-config="true" duration-ms="976" started-at="2021-05-19T20:54:51Z" finished-at="2021-05-19T20:54:52Z">
+        <test-method status="PASS" signature="Aftermethod(org.testng.ITestResult)[pri:0, instance:com.automation.Scripts.Purchase_Product@3d299e3]" name="Aftermethod" is-config="true" duration-ms="843" started-at="2021-06-02T22:36:15Z" finished-at="2021-06-02T22:36:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Opencart_PurchaseProduct status=SUCCESS method=Purchase_Product.Opencart_PurchaseProduct()[pri:0, instance:com.automation.Scripts.Purchase_Product@5906ebcb] output={null}]]]>
+                <![CDATA[[TestResult name=Opencart_PurchaseProduct status=SUCCESS method=Purchase_Product.Opencart_PurchaseProduct()[pri:0, instance:com.automation.Scripts.Purchase_Product@3d299e3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Aftermethod -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:com.automation.Scripts.Purchase_Product@5906ebcb]" name="AfterTest" is-config="true" duration-ms="91" started-at="2021-05-19T20:54:52Z" finished-at="2021-05-19T20:54:52Z">
+        <test-method status="PASS" signature="ParllelTest()[pri:1, instance:com.automation.Scripts.Purchase_Product@3d299e3]" name="ParllelTest" duration-ms="5456" started-at="2021-06-02T22:36:16Z" finished-at="2021-06-02T22:36:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ParllelTest -->
+        <test-method status="PASS" signature="Beforemethod(java.lang.reflect.Method)[pri:0, instance:com.automation.Scripts.Purchase_Product@3d299e3]" name="Beforemethod" is-config="true" duration-ms="0" started-at="2021-06-02T22:36:16Z" finished-at="2021-06-02T22:36:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.Scripts.Purchase_Product.ParllelTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforemethod -->
+        <test-method status="PASS" signature="Aftermethod(org.testng.ITestResult)[pri:0, instance:com.automation.Scripts.Purchase_Product@3d299e3]" name="Aftermethod" is-config="true" duration-ms="863" started-at="2021-06-02T22:36:21Z" finished-at="2021-06-02T22:36:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ParllelTest status=SUCCESS method=Purchase_Product.ParllelTest()[pri:1, instance:com.automation.Scripts.Purchase_Product@3d299e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftermethod -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:com.automation.Scripts.Purchase_Product@3d299e3]" name="AfterTest" is-config="true" duration-ms="60" started-at="2021-06-02T22:36:22Z" finished-at="2021-06-02T22:36:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
-        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:com.automation.Scripts.Purchase_Product@5906ebcb]" name="Closebrowser" is-config="true" duration-ms="1222" started-at="2021-05-19T20:54:52Z" finished-at="2021-05-19T20:54:53Z">
+        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:com.automation.Scripts.Purchase_Product@3d299e3]" name="Closebrowser" is-config="true" duration-ms="833" started-at="2021-06-02T22:36:22Z" finished-at="2021-06-02T22:36:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Closebrowser -->
       </class> <!-- com.automation.Scripts.Purchase_Product -->
     </test> <!-- Test -->
-  </suite> <!-- Suite -->
+  </suite> <!-- ParallelTestSuite -->
 </testng-results>
