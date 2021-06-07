@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,6 +100,11 @@
                       <a href="#" panel-name="suite-ParallelTestSuite" class="show-methods passed suite-ParallelTestSuite"> (show)</a> <!-- show-methods passed suite-ParallelTestSuite -->
                     </span>
                     <div class="method-list-content passed suite-ParallelTestSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ParallelTestSuite" title="com.automation.Scripts.Purchase_Product" hash-for-method="GmailTest">GmailTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-ParallelTestSuite" title="com.automation.Scripts.Purchase_Product" hash-for-method="Opencart_PurchaseProduct">Opencart_PurchaseProduct</a> <!-- method navigator-link -->
@@ -128,6 +133,13 @@
               <span class="class-name">com.automation.Scripts.Purchase_Product</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GmailTest">
+                  </a> <!-- GmailTest -->
+                  <span class="method-name">GmailTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="Opencart_PurchaseProduct">
@@ -197,15 +209,19 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Opencart_PurchaseProduct')
 data.setCell(0, 2, 'com.automation.Scripts.Purchase_Product')
-data.setCell(0, 3, 23895);
+data.setCell(0, 3, 20425);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'ParllelTest')
 data.setCell(1, 2, 'com.automation.Scripts.Purchase_Product')
-data.setCell(1, 3, 6135);
+data.setCell(1, 3, 7863);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'GmailTest')
+data.setCell(2, 2, 'com.automation.Scripts.Purchase_Product')
+data.setCell(2, 3, 2396);
 window.suiteTableData['ParallelTestSuite']= { tableData: data, tableDiv: 'times-div-ParallelTestSuite'}
 return data;
 }
@@ -243,39 +259,51 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">BeforeTest</span>
-                <span class="method-start">3135 ms</span>
+                <span class="method-start">3758 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">Beforemethod(public void com.automation.Scripts.Purchase_Product.Opencart_PurchaseProduct() throws com.Automation...)</span>
-                <span class="method-start">3454 ms</span>
+                <span class="method-start">4034 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Opencart_PurchaseProduct</span>
-                <span class="method-start">3464 ms</span>
+                <span class="method-start">4042 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Aftermethod([TestResult name=Opencart_PurchaseProduct status=SUCCESS method=Purchase_Product.Opencart_PurchasePr...)</span>
-                <span class="method-start">27360 ms</span>
+                <span class="method-start">24467 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">Beforemethod(public void com.automation.Scripts.Purchase_Product.ParllelTest())</span>
-                <span class="method-start">28229 ms</span>
+                <span class="method-start">25362 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">ParllelTest</span>
-                <span class="method-start">28229 ms</span>
+                <span class="method-start">25362 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">Aftermethod([TestResult name=ParllelTest status=SUCCESS method=Purchase_Product.ParllelTest()[pri:1, instance:co...)</span>
-                <span class="method-start">34364 ms</span>
+                <span class="method-start">33226 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Beforemethod(public void com.automation.Scripts.Purchase_Product.GmailTest())</span>
+                <span class="method-start">34377 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GmailTest</span>
+                <span class="method-start">34378 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Aftermethod([TestResult name=GmailTest status=SUCCESS method=Purchase_Product.GmailTest()[pri:2, instance:com.au...)</span>
+                <span class="method-start">36775 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">AfterTest</span>
-                <span class="method-start">35294 ms</span>
+                <span class="method-start">37124 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
                 <span class="method-name">Closebrowser</span>
-                <span class="method-start">35395 ms</span>
+                <span class="method-start">37233 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
