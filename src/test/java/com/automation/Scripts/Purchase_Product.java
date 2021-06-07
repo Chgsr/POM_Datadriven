@@ -36,16 +36,5 @@ public class Purchase_Product extends BaseTest {
 		
 	}
 	
-	@Test(priority = 1)
-	public void ParllelTest() {
-		
-		//System.out.println(Thread.currentThread().getId());
-		getDriver().get("https://www.rameshsoft.com");
-		
-		System.out.println("Guna Added Code");
-		
-
-	}
-	
 
 }
