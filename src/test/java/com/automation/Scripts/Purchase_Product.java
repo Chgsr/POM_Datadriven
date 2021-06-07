@@ -16,7 +16,7 @@ import com.relevantcodes.extentreports.LogStatus;
 public class Purchase_Product extends BaseTest {
 	
 	@Test(priority = 0)
-	public void Opencart_PurchaseProduct() throws FrameWorkExceptions, IOException {
+	public void Opencart_PurchaseProduct() throws FrameWorkExceptions, IOException, InterruptedException {
 		
 		//System.out.println(Thread.currentThread().getId());
 		
@@ -33,6 +33,14 @@ public class Purchase_Product extends BaseTest {
 		Laptop_Notebooks_Page.Select_HPLaptop();
 		ProductPage.CheckDefaultQuantity();
 		ProductPage.EnterQuantity("3");
+		ProductPage.Select_Deliverydate();
+		ProductPage.Get_Price();
+		ProductPage.Add_To_Cart();
+		
+		
+		
+		
+		
 		
 	}
 	
