@@ -47,11 +47,5 @@ public class Purchase_Product extends BaseTest {
 
 	}
 	
-	@Test(priority = 2)
-	public void GmailTest() {
-		
-		getDriver().get("https://www.gmail.com");
-
-	}
 
 }

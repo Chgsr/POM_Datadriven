@@ -37,7 +37,7 @@ public class ProductPage extends BaseTest {
 
 		Quantity.clear();
 		Quantity.sendKeys(Enterquantity);
-		getExtenttest().log(LogStatus.PASS, "Quantity Entered as 3");
+		getExtenttest().log(LogStatus.PASS, "Quantity Entered as: "+Enterquantity);
 		
 	}
 	
