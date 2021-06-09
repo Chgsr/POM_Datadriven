@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="ParallelTestSuite" duration-ms="36838" started-at="2021-06-07T09:50:14Z" finished-at="2021-06-07T09:50:50Z">
+  <suite name="Suite" duration-ms="18112" started-at="2021-06-09T08:16:07Z" finished-at="2021-06-09T08:16:25Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="36838" started-at="2021-06-07T09:50:14Z" finished-at="2021-06-07T09:50:50Z">
-      <class name="com.automation.Scripts.Purchase_Product">
-        <test-method status="PASS" signature="OpenBrowser(java.lang.String)[pri:0, instance:com.automation.Scripts.Purchase_Product@5906ebcb]" name="OpenBrowser" is-config="true" duration-ms="2796" started-at="2021-06-07T15:20:11Z" finished-at="2021-06-07T15:20:14Z">
+    <test name="Test" duration-ms="18112" started-at="2021-06-09T08:16:07Z" finished-at="2021-06-09T08:16:25Z">
+      <class name="com.automation.Scripts.Etrade_Account">
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String)[pri:0, instance:com.automation.Scripts.Etrade_Account@5db45159]" name="OpenBrowser" is-config="true" duration-ms="1658" started-at="2021-06-09T13:46:05Z" finished-at="2021-06-09T13:46:07Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,68 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.automation.Scripts.Purchase_Product@5906ebcb]" name="BeforeTest" is-config="true" duration-ms="248" started-at="2021-06-07T15:20:14Z" finished-at="2021-06-07T15:20:14Z">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.automation.Scripts.Etrade_Account@5db45159]" name="BeforeTest" is-config="true" duration-ms="6" started-at="2021-06-09T13:46:07Z" finished-at="2021-06-09T13:46:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method status="PASS" signature="Beforemethod(java.lang.reflect.Method)[pri:0, instance:com.automation.Scripts.Purchase_Product@5906ebcb]" name="Beforemethod" is-config="true" duration-ms="8" started-at="2021-06-07T15:20:14Z" finished-at="2021-06-07T15:20:14Z">
+        <test-method status="PASS" signature="Beforemethod(java.lang.reflect.Method)[pri:0, instance:com.automation.Scripts.Etrade_Account@5db45159]" name="Beforemethod" is-config="true" duration-ms="0" started-at="2021-06-09T13:46:07Z" finished-at="2021-06-09T13:46:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.Scripts.Etrade_Account.OpenAccount() throws java.lang.InterruptedException,com.Automation.CustomisedExceptions.FrameWorkExceptions,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforemethod -->
+        <test-method status="PASS" signature="OpenAccount()[pri:0, instance:com.automation.Scripts.Etrade_Account@5db45159]" name="OpenAccount" duration-ms="17880" started-at="2021-06-09T13:46:07Z" finished-at="2021-06-09T13:46:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAccount -->
+        <test-method status="PASS" signature="Aftermethod(org.testng.ITestResult)[pri:0, instance:com.automation.Scripts.Etrade_Account@5db45159]" name="Aftermethod" is-config="true" duration-ms="176" started-at="2021-06-09T13:46:24Z" finished-at="2021-06-09T13:46:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OpenAccount status=SUCCESS method=Etrade_Account.OpenAccount()[pri:0, instance:com.automation.Scripts.Etrade_Account@5db45159] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftermethod -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:com.automation.Scripts.Etrade_Account@5db45159]" name="AfterTest" is-config="true" duration-ms="49" started-at="2021-06-09T13:46:25Z" finished-at="2021-06-09T13:46:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:com.automation.Scripts.Etrade_Account@5db45159]" name="Closebrowser" is-config="true" duration-ms="802" started-at="2021-06-09T13:46:25Z" finished-at="2021-06-09T13:46:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closebrowser -->
+      </class> <!-- com.automation.Scripts.Etrade_Account -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite name="ParallelTestSuite" duration-ms="36971" started-at="2021-06-09T08:15:27Z" finished-at="2021-06-09T08:16:04Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="36971" started-at="2021-06-09T08:15:27Z" finished-at="2021-06-09T08:16:04Z">
+      <class name="com.automation.Scripts.Purchase_Product">
+        <test-method status="PASS" signature="OpenBrowser(java.lang.String)[pri:0, instance:com.automation.Scripts.Purchase_Product@5906ebcb]" name="OpenBrowser" is-config="true" duration-ms="2595" started-at="2021-06-09T13:45:24Z" finished-at="2021-06-09T13:45:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.automation.Scripts.Purchase_Product@5906ebcb]" name="BeforeTest" is-config="true" duration-ms="209" started-at="2021-06-09T13:45:27Z" finished-at="2021-06-09T13:45:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="Beforemethod(java.lang.reflect.Method)[pri:0, instance:com.automation.Scripts.Purchase_Product@5906ebcb]" name="Beforemethod" is-config="true" duration-ms="12" started-at="2021-06-09T13:45:27Z" finished-at="2021-06-09T13:45:27Z">
           <params>
             <param index="0">
               <value>
@@ -33,11 +90,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Beforemethod -->
-        <test-method status="PASS" signature="Opencart_PurchaseProduct()[pri:0, instance:com.automation.Scripts.Purchase_Product@5906ebcb]" name="Opencart_PurchaseProduct" duration-ms="35655" started-at="2021-06-07T15:20:14Z" finished-at="2021-06-07T15:20:50Z">
+        <test-method status="PASS" signature="Opencart_PurchaseProduct()[pri:0, instance:com.automation.Scripts.Purchase_Product@5906ebcb]" name="Opencart_PurchaseProduct" duration-ms="36003" started-at="2021-06-09T13:45:27Z" finished-at="2021-06-09T13:46:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Opencart_PurchaseProduct -->
-        <test-method status="PASS" signature="Aftermethod(org.testng.ITestResult)[pri:0, instance:com.automation.Scripts.Purchase_Product@5906ebcb]" name="Aftermethod" is-config="true" duration-ms="835" started-at="2021-06-07T15:20:50Z" finished-at="2021-06-07T15:20:50Z">
+        <test-method status="PASS" signature="Aftermethod(org.testng.ITestResult)[pri:0, instance:com.automation.Scripts.Purchase_Product@5906ebcb]" name="Aftermethod" is-config="true" duration-ms="654" started-at="2021-06-09T13:46:03Z" finished-at="2021-06-09T13:46:04Z">
           <params>
             <param index="0">
               <value>
@@ -48,11 +105,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Aftermethod -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:com.automation.Scripts.Purchase_Product@5906ebcb]" name="AfterTest" is-config="true" duration-ms="71" started-at="2021-06-07T15:20:50Z" finished-at="2021-06-07T15:20:50Z">
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:com.automation.Scripts.Purchase_Product@5906ebcb]" name="AfterTest" is-config="true" duration-ms="48" started-at="2021-06-09T13:46:04Z" finished-at="2021-06-09T13:46:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
-        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:com.automation.Scripts.Purchase_Product@5906ebcb]" name="Closebrowser" is-config="true" duration-ms="817" started-at="2021-06-07T15:20:51Z" finished-at="2021-06-07T15:20:51Z">
+        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:com.automation.Scripts.Purchase_Product@5906ebcb]" name="Closebrowser" is-config="true" duration-ms="781" started-at="2021-06-09T13:46:04Z" finished-at="2021-06-09T13:46:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Closebrowser -->
